@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>My personal portfolio</title>
 </head>
 <body>
     <h1>Joseph García - Riwi developer</h1>
     <nav>
-        <a href="#About Me">About Me</a>
+        <a href="#About-Me">About Me</a>
         <a href="#Projects">Projects</a>
         <a href="#Contact">Contact</a>
     </nav>
-    <section>
+    <section id="#About-Me">
         <h2>About Me</h2>
         <p>Hello, I am Joseph García</p>
         <p>Passionate about solving real-world problems with simple, efficient, and well-crafted tech solutions.</p>
@@ -26,7 +27,7 @@
         <li>Python</li>
         <li>Pseint</li>
     </ul>
-    <section>
+    <section id="Projects">
         <h2>Projects</h2>
         <h3>Project 1: Portfolio Website</h3>
         <p>This is my first project using HTML and CSS, where I built a personal portfolio.</p>
@@ -44,7 +45,7 @@
             <tr>
                 <td>Portfolio Website</td>
                 <td>HTML & CSS</td>
-                <td><a href="" target="_blank">View Project</a></td>
+                <td><a href="https://github.com/josephlgarcia/My_personal_portfolio.git" target="_blank">View Project</a></td>
             </tr>
             <tr>
                 <td>Inventory Management System</td>
@@ -58,9 +59,11 @@
             </tr>
         </table>
 
+        <img src="imagenes/Project.jpeg" alt="Project portfolio image" width="300">
+
     </section>
 
-    <section>
+    <section id="Contact">
         <h2>Contact</h2>
         <form action="/send" method="post">
             <label for="name">Name:</label>
@@ -75,8 +78,6 @@
             <input type="submit" value="Send">
         </form>
     </section>
-
-    <img src="imagenes/Porject.jpeg" alt="Project portfolio image" width="300">
 
     <header>
         <a href="mailto:josephgarciaescobar597@gmail.com">Gmail</a>
