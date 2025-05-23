@@ -1,7 +1,9 @@
 *{
     padding: 0;
     margin: 0;
-}
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
 
 header {
     display: flex;
@@ -12,29 +14,30 @@ header {
     color: white;
     background-color: #264653;
     gap: 15px;
-}
+} 
+
 nav{
     display: flex;
     padding: 10px;
     gap: 100px;
-}
+} 
 
 nav a{
     color: white;
     text-decoration: none;
-}
+} 
 
 nav a:hover{
     color: #F4A261;
-}
+} 
 
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5px;
+    gap: 1rem;
     background-color: #F0EFEB;
-}
+} 
 
 .aboutme {
     display: flex;
@@ -48,16 +51,16 @@ main{
     box-shadow: 0 2px 4px 6px rgba(0, 0, 0, 0.15);
     padding: 20px;
     margin-top: 3%;
-}
+} 
 
 h2{
     color: #E9C46A;
-}
+} 
 
 .aboutme img{
     margin: auto;
     border-radius: 10px;
-}
+} 
 
 .aboutme ul{
     display: flex;
@@ -66,7 +69,7 @@ h2{
     gap: 12px;
     padding-top: 10px;
     width: 100%;
-}
+} 
 
 .aboutme ul li{
     width: 100%;
@@ -74,11 +77,11 @@ h2{
     border-radius: 10px;
     padding: 5px;
     color: white;
-}
+} 
 
 .aboutme ul li:hover{
     color: #F4A261;
-}
+} 
 
 .Projects{
     display: flex;
@@ -91,7 +94,7 @@ h2{
     border-radius: 15px;
     box-shadow: 0 2px 4px 6px rgba(0, 0, 0, 0.15);
     padding: 20px
-}
+} 
 
 
 
@@ -99,23 +102,23 @@ h2{
     margin: auto;
     width: 100%;
     text-align: center;
-}
+} 
 
 .Projects table th{
     background-color: #2A9D8F;
     color: white;
-}
+} 
 
 .Projects th, td {
     padding: 8px;
     border: 1px solid black;
     text-align: left;
-}
+} 
 
 .Projects img{
     margin: auto;
     border-radius: 10px;
-}
+} 
 
 
 .Contact{
@@ -126,7 +129,7 @@ h2{
     box-shadow: 0 2px 4px 6px rgba(0, 0, 0, 0.15);
     padding: 20px;
     margin-bottom: 3%;
-}
+} 
 
 form{
     display: flex;
@@ -134,17 +137,23 @@ form{
     gap: 8px;
     padding: 40px;
     color: #2A9D8F
-}
+} 
 
 
 input, textarea{
     width: 100%;
     padding: 10px;
-}
+    resize: none;
+} 
 
 input:hover, textarea:hover{
     box-shadow: 0 2px 4px 6px rgba(0, 0, 0, 0.16);
-}
+    transition: all .5s ease;
+} 
+
+input[type="submit"]:hover{
+    background-color: #2A9D8F;
+} 
 
 footer{
     display: flex;
@@ -152,13 +161,13 @@ footer{
     gap: 30%;
     justify-content: center;
     background-color: #264653;
-}
+} 
 
 footer a{
     color: white;
     text-decoration: none;
-}
+} 
 
 footer a:hover{
     color: #F4A261;
-}
+} 
